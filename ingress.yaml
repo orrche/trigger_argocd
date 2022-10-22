@@ -16,7 +16,7 @@ spec:
     - host: trigger-argocd.wr25.org
       http:
         paths:
-          - path: /api/webhook
+          - path: /
             pathType: Prefix
             backend:
               service:
