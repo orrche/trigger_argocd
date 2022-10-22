@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   labels:
-    something: notttttt
+    something: not
   name: matx-httrigger
   annotations:
     kubernetes.io/ingress.class: traefik
