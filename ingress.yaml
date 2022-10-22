@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   labels:
     something: not
-  name: hurmatx-httrigger
+  name: matx-httrigger
   annotations:
     kubernetes.io/ingress.class: traefik
     cert-manager.io/cluster-issuer: letsencrypt-prod
