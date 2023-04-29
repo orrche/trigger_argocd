@@ -9,7 +9,7 @@ metadata:
     cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
   tls:
-    - secretName: trigger-tls
+    - secretName: trigger-argocd.wr25.org-tls
       hosts:
         - trigger-argocd.wr25.org
   rules:
